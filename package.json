@@ -18,10 +18,10 @@
   "author": "Raven Rebels / Dick Henrik Larsson",
   "license": "MIT",
   "dependencies": {
-    "@ravenrebels/ravencoin-history-list": "^1.2.4",
-    "@ravenrebels/ravencoin-jswallet": "^0.9.1",
-    "@ravenrebels/ravencoin-key": "^2.5.2",
-    "@ravenrebels/ravencoin-message": "^0.7.0",
+    "@ravenrebels/ravencoin-history-list": "git+https://github.com/AITTCOINCOMMINUTY/ravencoin-history-list",
+    "@ravenrebels/ravencoin-jswallet": "git+https://github.com/AITTCOINCOMMINUTY/ravencoin-jswallet",
+    "@ravenrebels/ravencoin-key": "git+https://github.com/AITTCOINCOMMINUTY/ravencoin-key",
+    "@ravenrebels/ravencoin-message": "git+https://github.com/AITTCOINCOMMINUTY/ravencoin-message",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "crypto-js": "^4.2.0",
@@ -30,6 +30,7 @@
     "react-dom": "^18.2.0",
     "react-qr-reader": "^3.0.0-beta-1"
   },
+  
   "overrides": {
     "react-qr-reader": {
       "react": "$react",
